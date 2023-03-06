@@ -1,0 +1,65 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px; 
+    padding-top: 56px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer {
+    position: fixed;
+    height: 60px; 
+    bottom: 0;
+    width: 100%;
+    line-height: 60px; 
+    background-color: #f5f5f5;
+}
+
+.top-header {
+    background-color: #E7E7E7;
+    border-bottom: 4px solid #30D1C8;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #E7E7E7;
+    color: #008692;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #ADADAD;
+}
+
+.my-color {
+  color:#30D1C8;
+}
+
+.my-hr {
+   border: 1px solid #30D1C8;
+}
+
+a.my-link:link { color: #30D1C8; }
+a.my-link:visited {color: #30D1C8; }
+a.my-link:hover { color: #30D1C8; font-weight: bold; }
+a.my-link:active  {color: #1A726C; font-weight: bold; }
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
